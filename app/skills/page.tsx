@@ -15,9 +15,9 @@ export default function Page() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-12">
                 {categories.map((category) => (
                     <div key={category}>
-                        <h3 className="font-semibold text-xl mb-4">
+                        <h2 className="font-semibold text-xl mb-4">
                             {formatTitle(category)}
-                        </h3>
+                        </h2>
                         <ul className="space-y-3">
                             {/*
                 NEW: We use .slice() to create a shallow copy so we don't mutate
