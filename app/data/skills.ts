@@ -16,6 +16,7 @@ export const skillsData: SkillsData = {
         { name: "Python", proficiency: "Proficient" },
         { name: "Java/Kotlin", proficiency: "Proficient" },
         { name: "JavaScript/TypScript", proficiency: "Knowledgeable" },
+        { name: "R", proficiency: "Knowledgeable" },
         { name: "Rust", proficiency: "Knowledgeable" },
         { name: "Go", proficiency: "Familiar" },
         { name: "Elixir", proficiency: "Familiar" },
@@ -41,6 +42,7 @@ export const skillsData: SkillsData = {
         { name: 'GraphQL APIs', proficiency: "Familiar"},
         { name: 'Phoenix LiveView', proficiency: 'Familiar' },
         { name: 'Spring Framework', proficiency: 'Knowledgeable' },
+        { name: 'Next.js', proficiency: 'Knowledgeable' },
     ],
     tools: [
         { name: 'Git & GitHub', proficiency: "Knowledgeable"},
