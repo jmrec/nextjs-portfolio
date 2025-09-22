@@ -1,6 +1,8 @@
 import { BlogPosts } from 'app/components/posts'
+import {Metadata} from "next";
+import MainHeading from "../components/main-heading";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Blog',
   description: 'Read my blog.',
 }
@@ -8,8 +10,8 @@ export const metadata = {
 export default function Page() {
   return (
     <section>
-      <h1 className="font-semibold text-2xl mb-8 tracking-tighter">My Blog</h1>
-      <BlogPosts />
+        <MainHeading title={'My Blog'}/>
+        <BlogPosts />
     </section>
   )
 }
