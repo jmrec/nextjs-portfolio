@@ -42,7 +42,6 @@ export const skillsData: SkillsData = {
         { name: 'GraphQL APIs', proficiency: "Familiar"},
         { name: 'Phoenix LiveView', proficiency: 'Familiar' },
         { name: 'Spring Framework', proficiency: 'Knowledgeable' },
-        { name: 'Next.js', proficiency: 'Knowledgeable' },
     ],
     tools: [
         { name: 'Git & GitHub', proficiency: "Knowledgeable"},
