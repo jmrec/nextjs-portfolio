@@ -15,7 +15,7 @@ export const skillsData: SkillsData = {
     language: [
         { name: "Python", proficiency: "Proficient" },
         { name: "Java/Kotlin", proficiency: "Proficient" },
-        { name: "JavaScript/TypScript", proficiency: "Knowledgeable" },
+        { name: "JavaScript/TypeScript", proficiency: "Knowledgeable" },
         { name: "R", proficiency: "Knowledgeable" },
         { name: "Rust", proficiency: "Knowledgeable" },
         { name: "Go", proficiency: "Familiar" },
