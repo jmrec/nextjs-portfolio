@@ -19,10 +19,6 @@ export default function Page() {
                             {formatTitle(category)}
                         </h2>
                         <ul className="space-y-3">
-                            {/*
-                NEW: We use .slice() to create a shallow copy so we don't mutate
-                the original data, then .sort() to order the skills.
-              */}
                             {skillsData[category]
                                 .slice()
                                 .sort((a, b) => proficiencyOrder[b.proficiency] - proficiencyOrder[a.proficiency])

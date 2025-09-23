@@ -7,6 +7,7 @@ export type SkillsData = {
     language: Skill[];
     frontend: Skill[];
     backend: Skill[];
+    data_analysis: Skill[];
     tools: Skill[];
     paradigms_and_concepts: Skill[];
 };
@@ -35,13 +36,23 @@ export const skillsData: SkillsData = {
         { name: 'Tailwind CSS', proficiency: "Knowledgeable" },
         { name: 'Svelte/SvelteKit', proficiency: "Familiar" },
         { name: 'Jetpack Compose', proficiency: "Knowledgeable" },
+        { name: 'Phoenix LiveView', proficiency: 'Familiar' },
     ],
     backend: [
         { name: 'PostgreSQL', proficiency: "Proficient" },
         { name: 'REST APIs', proficiency: "Proficient" },
         { name: 'GraphQL APIs', proficiency: "Familiar"},
-        { name: 'Phoenix LiveView', proficiency: 'Familiar' },
         { name: 'Spring Framework', proficiency: 'Knowledgeable' },
+        { name: 'SQLite', proficiency: "Knowledgeable" },
+    ],
+    data_analysis: [
+        { name: 'NumPy', proficiency: "Proficient" },
+        { name: 'Pandas', proficiency: "Proficient" },
+        { name: 'Polars', proficiency: "Knowledgeable" },
+        { name: 'Matplotlib', proficiency: "Knowledgeable" },
+        { name: 'Seaborn', proficiency: "Knowledgeable" },
+        { name: 'SciPy', proficiency: "Knowledgeable" },
+        { name: 'Scikit-learn', proficiency: "Knowledgeable" },
     ],
     tools: [
         { name: 'Git & GitHub', proficiency: "Knowledgeable"},
@@ -49,6 +60,10 @@ export const skillsData: SkillsData = {
         { name: 'Figma', proficiency: "Knowledgeable" },
         { name: 'Vercel', proficiency: "Familiar"},
         { name: 'Ansible', proficiency: "Knowledgeable" },
+        { name: 'Markdown', proficiency: "Proficient" },
+        { name: 'Typst', proficiency: "Proficient" },
+        { name: 'Latex', proficiency: "Knowledgeable" },
+        { name: 'UML', proficiency: "Proficient" },
     ],
     paradigms_and_concepts: [
         { name: 'Functional Programming', proficiency: 'Proficient' },
