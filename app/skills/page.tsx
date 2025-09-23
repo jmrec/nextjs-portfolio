@@ -1,6 +1,11 @@
 import MainHeading from "../components/main-heading";
 import { SkillsData, skillsData } from "../data/skills";
 import { formatTitle, proficiencyColors, proficiencyOrder } from "./utils";
+import {Metadata} from "next";
+
+export const metadata: Metadata = {
+    title: 'Skills'
+}
 
 export default function Page() {
     const categories = Object.keys(skillsData) as Array<keyof SkillsData>;

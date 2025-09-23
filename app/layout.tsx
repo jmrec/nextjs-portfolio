@@ -8,11 +8,13 @@ import { SpeedInsights } from '@vercel/speed-insights/next'
 import Footer from './components/footer'
 import { baseUrl } from './sitemap'
 
+const websiteTitle: string = "Juan Miguel Recondo"
+
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: 'Next.js Portfolio Starter',
-    template: '%s | Next.js Portfolio Starter',
+    default: websiteTitle,
+    template: `%s | ${websiteTitle}`,
   },
   description: 'This is my portfolio.',
   openGraph: {

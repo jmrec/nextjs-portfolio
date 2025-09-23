@@ -3,8 +3,7 @@ import {Metadata} from "next";
 import MainHeading from "../components/main-heading";
 
 export const metadata: Metadata = {
-  title: 'Blog',
-  description: 'Read my blog.',
+  title: 'Blog'
 }
 
 export default function Page() {
