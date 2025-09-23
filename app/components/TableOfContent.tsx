@@ -21,11 +21,13 @@ export const TableOfContent: React.FC<{}> = () => {
                         <li key={link.id}>
                             <a
                                 className={`${
-                                    isActive ? "text-gray-800 font-semibold" : "text-gray-500"
+                                    isActive
+                                        ? "text-gray-800 dark:text-gray-200 font-semibold"
+                                        : "text-gray-500 dark:text-gray-400"
                                 }
                 ${["h3"].includes(link.tagName.toLowerCase()) && "pl-3"}
                 ${["h4"].includes(link.tagName.toLowerCase()) && "pl-6"}
-                hover:text-gray-700 transition-colors duration-200
+                hover:text-gray-700 dark:hover:text-gray-300 transition-colors duration-200
                 `}
                                 href={`#${link.id}`}
                             >
