@@ -5,7 +5,7 @@ import { useTableOfContent } from "react-table-of-content";
 
 export const TableOfContent: React.FC<{}> = () => {
     const { headingLinks, contentIsActive } = useTableOfContent({
-        selectors: "article h1, article h2, article h3",
+        selectors: "article h1, article h2, article h3, article h4",
     });
 
     if (!headingLinks || headingLinks.length < 1) return null;
@@ -23,8 +23,8 @@ export const TableOfContent: React.FC<{}> = () => {
                                 className={`${
                                     isActive ? "text-gray-800 font-semibold" : "text-gray-500"
                                 }
-                ${["h3", "h4"].includes(link.tagName.toLowerCase()) && "pl-2"}
-                ${["h5", "h6"].includes(link.tagName.toLowerCase()) && "pl-4"}
+                ${["h3"].includes(link.tagName.toLowerCase()) && "pl-3"}
+                ${["h4"].includes(link.tagName.toLowerCase()) && "pl-6"}
                 hover:text-gray-700 transition-colors duration-200
                 `}
                                 href={`#${link.id}`}
