@@ -17,7 +17,7 @@ export default function Page() {
                 My technical toolkit, sorted by proficiency (green, yellow, and orange). I'm always eager to learn and adapt to new technologies.
             </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-12">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-12">
                 {categories.map((category) => (
                     <div key={category}>
                         <h2 className="font-semibold text-xl mb-4">
